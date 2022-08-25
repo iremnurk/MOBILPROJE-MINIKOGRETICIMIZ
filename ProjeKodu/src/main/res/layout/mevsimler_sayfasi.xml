@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    tools:context="minikogreticimiz.minikogreticimiz.MevsimlerSayfasi"
+    >
+
+    <RelativeLayout
+        android:background="#FFF0F5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="49dp"
+            app:srcCompat="@drawable/sonbahar" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"
+            android:textColor="#008080"
+            android:text="Sonbahar 23 Eylülde başlayarak 21 Aralığa kadar devam eden, yazla kış arasında bir geçiş mevsimidir. Sonbahar, kış ayının habercisidir. Bu mevsimde havalar yavaş yavaş soğuyarak, kışa hazırlık yapılması için insanları uyarır. Ağaçlar yemyeşil güzelliklerini kaybederek yapraklarını dökmeye, bitkiler sararmaya, hayvanlar kışa hazırlık yapmaya başlarlar."
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#008080"
+            android:textColor="#FFF8DC"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:onClick="btn"
+            android:text="İLERLE"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="456dp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

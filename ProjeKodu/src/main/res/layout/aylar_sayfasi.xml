@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="minikogreticimiz.minikogreticimiz.AylarSayfasi">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        app:srcCompat="@drawable/aylarekran" />
+
+    <Button
+        android:id="@+id/btn_aylarilerle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFD700"
+        android:onClick="btn_aylarilerle"
+        android:text="AYLAR ŞİİRİ İÇİN TIKLA"
+         />
+
+    <Button
+        android:id="@+id/btn_menudonn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5705"
+        android:onClick="btn_mevsimler"
+        android:text="MEVSİMLER İÇİN TIKLA "
+        android:textColor="#fff"/>
+
+</LinearLayout>

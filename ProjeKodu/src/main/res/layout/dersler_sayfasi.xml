@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E6E6FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="minikogreticimiz.minikogreticimiz.DerslerSayfasi">
+
+
+    <Button
+        android:id="@+id/btn_alfabe"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:background="#4682B4"
+        android:onClick="btn_alfabe"
+        android:text="Alfabe"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rakamlar"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btn_alfabe"
+        android:layout_weight="1"
+        android:background="#B0E0E6"
+        android:onClick="btn_rakamlar"
+        android:text="RAKAMLAR"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_saatler"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_alfabe"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:background="#B0E0E6"
+        android:onClick="btn_saatler"
+        android:text="SAATLER"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_gunler"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_saatler"
+        android:layout_alignBottom="@+id/btn_saatler"
+        android:layout_toEndOf="@+id/btn_saatler"
+        android:layout_weight="1"
+        android:background="#4682B4"
+        android:onClick="btn_gunler"
+        android:text="GÜNLER"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_aylar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_saatler"
+        android:layout_marginTop="18dp"
+        android:layout_weight="1"
+        android:background="#4682B4"
+        android:onClick="btn_aylar"
+        android:text="AYLAR VE MEVSİMLER"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_kolaymat"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_aylar"
+        android:layout_weight="1"
+        android:background="#B0E0E6"
+        android:onClick="btn_mat"
+        android:text="KOLAY MATEMATİK"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_egiticifilm"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1"
+        android:background="#B0E0E6"
+        android:onClick="btn_cizgifilm"
+        android:text="EĞİTİCİ ÇİZGİFİLM İZLEYELİM"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_hikaye"
+        android:layout_width="283dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btn_egiticifilm"
+        android:layout_marginBottom="11dp"
+        android:layout_toStartOf="@+id/imageView3"
+        android:layout_weight="1"
+        android:background="#B0E0E6"
+        android:onClick="btn_hikaye"
+        android:text="HİKAYE ZAMANI"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_hikaye"
+        android:background="#B0E0E6"
+        app:srcCompat="@drawable/kitap" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/children" />
+
+</RelativeLayout>

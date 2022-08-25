@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="minikogreticimiz.minikogreticimiz.Saatlerornek">
+
+    <Button
+        android:id="@+id/btnsorubir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginStart="27dp"
+        android:background="#4682B4"
+        android:text="Birinci Soru" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsorubir"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="122dp"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsorubir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="SORU CEVAP ZAMANI" />
+
+    <Button
+        android:id="@+id/btnsoruiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnsorubir"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="97dp"
+        android:background="#4682B4"
+        android:text="İKİNCİ SORU" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsorubir"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Soruları Görmek İçin Butonlara Tıkla " />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/kus" />
+
+    <Button
+        android:id="@+id/btn_menudon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView18"
+        android:layout_alignEnd="@+id/btnsoruiki"
+        android:background="#4682B4"
+        android:onClick="btn_menudon"
+        android:text="MENÜYE DÖN" />
+
+</RelativeLayout>

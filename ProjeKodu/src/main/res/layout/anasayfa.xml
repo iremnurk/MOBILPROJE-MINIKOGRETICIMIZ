@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    tools:context="minikogreticimiz.minikogreticimiz.Anasayfa">
+
+
+    <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/tomjerry" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_below="@+id/textView23"
+        android:layout_marginTop="133dp"
+        android:text="1.Sınıf Artık Daha Kolay :)"
+        android:textColor="#000" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:background="#4682B4"
+        android:onClick="btnd"
+        android:text="DERSLER "
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_marginStart="76dp"
+        android:textColor="#000"
+        android:text="HAYDİ ÖĞRENMEYE" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_below="@+id/textView20"
+        android:layout_marginStart="89dp"
+        android:textColor="#000"
+        android:text="BAŞLAYALIM" />
+
+</RelativeLayout>
