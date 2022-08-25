@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="minikogreticimiz.minikogreticimiz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AcilisSayfa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginSayfa" />
+        <activity android:name=".Kayit" />
+        <activity android:name=".Anasayfa" />
+        <activity android:name=".DerslerSayfasi" />
+        <activity android:name=".AlfabeSayfasi" />
+        <activity android:name=".AlfabeVideoSayfasi" />
+        <activity android:name=".RakamlarSayfasi" />
+        <activity android:name=".SaatlerSayfasi" />
+        <activity android:name=".SaatlerikinciSayfa" />
+        <activity android:name=".Saatlerornek" />
+        <activity android:name=".GunlerSayfasi" />
+        <activity android:name=".GunleriPekistirmeSayfasi" />
+        <activity android:name=".AylarSayfasi" />
+        <activity android:name=".AylarikinciSayfa" />
+        <activity android:name=".MevsimlerSayfasi" />
+        <activity android:name=".MevsimlerikinciSayfa" />
+        <activity android:name=".MevsimlerucuncuSayfa" />
+        <activity android:name=".MevsimlerdorduncuSayfa" />
+        <activity android:name=".MevsimSiir" />
+        <activity android:name=".MatematikSayfasi" />
+        <activity android:name=".MatematikSayfaiki" />
+        <activity android:name=".MatematikSayfasiuc" />
+        <activity android:name=".Rakamsayfa_Iki" />
+        <activity android:name=".HikayeSayfasi" />
+        <activity android:name=".HikayeSayfasiiki" />
+        <activity android:name=".HikayeZamani" />
+        <activity android:name=".EgiticiCizgifilm"></activity>
+    </application>
+
+</manifest>
